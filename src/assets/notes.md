@@ -24,3 +24,5 @@ npm install axios --save
 
 - useEffect 
 Se utiliza para ejecutar codigo cuando se renderiza el componente, al igual que componentDidMount y componentDidUpdate
+
+- agregar extension de react developer tools en chrome

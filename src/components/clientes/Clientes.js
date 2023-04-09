@@ -3,6 +3,9 @@ import React, { useEffect, useState, Fragment } from 'react';
 // cliente de axios 
 import clienteAxios from '../../config/axios';
 
+// componentes
+import Cliente from './Cliente';
+
 function Clientes() {
 
   // trabajar con el state 
@@ -29,8 +32,12 @@ function Clientes() {
       <h2>Clientes</h2>
       <ul className="listado-clientes">
         {
-          clientes.map(cliente => {
-          })
+          clientes.map(cliente => (
+            <Cliente
+              key = { cliente._id }   // key es un atributo de React que no se puede cambiar
+              cliente = { cliente }
+            />
+          ))
         }
       </ul>
 
