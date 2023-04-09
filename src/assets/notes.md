@@ -18,3 +18,6 @@ npm install react-router-dom@5.2.0    se uso en el proyecto
 
 # npm audit fix - para solucionar vulnerabilidades
 npm audit fix
+
+# instalacion de axios
+npm install axios --save

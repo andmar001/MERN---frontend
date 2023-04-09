@@ -20,7 +20,7 @@ function App(){
       <Fragment>
         <Header />
         
-        <div class="grid contenedor contenido-principal">
+        <div className="grid contenedor contenido-principal">
           <Navegacion />
           
           <main className="caja-contenido col-9">
