@@ -21,3 +21,6 @@ npm audit fix
 
 # instalacion de axios
 npm install axios --save
+
+- useEffect 
+Se utiliza para ejecutar codigo cuando se renderiza el componente, al igual que componentDidMount y componentDidUpdate
