@@ -11,3 +11,10 @@ Es el componente principal de la aplicacion, donde se renderiza el resto de comp
 - class se sustituye por className en JSX - debido a que class es una palabra reservada de JS
 
 FRAGMENT se utiliza para agrupar elementos sin necesidad de crear un div
+
+# instalacion de react-router-dom
+npm install react-router-dom
+npm install react-router-dom@5.2.0    se uso en el proyecto
+
+# npm audit fix - para solucionar vulnerabilidades
+npm audit fix
